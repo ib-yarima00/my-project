@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #054bb4;
+            text-align: center;
+            font-size: 16px;
+            /* height: 50px; */
+            color: white;
+            padding: 16px;
+            font-weight: bold;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            background-color: #7eb1f8;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-a {
+            text-decoration: none;
+            margin-right: 50px;
+            margin-top: 45px;
+            color: #1105b6;
+            position: relative;
+        }
+
+        .nav a:hover {
+            border-bottom: 3px solid #1105b6;
+            border-radius: 2px;
+        }
+
+        .button {
+            width: 200px;
+            height: 35px;
+            background-color: #054bb4;
+            margin-top: 30px;
+            margin-right: 20px;
+            border: none;
+            border-radius: 11px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            color: white;
+            background-color: #1105b6;
+        }
+
+        .logo{
+            margin-left: 20px;
+            cursor: pointer;
+        }
+
+        .contact{
+            background-color: #054bb4;
+            height: 200px;
+        }
+
+        .contact-h1{
+            color: #7eb1f8;
+            padding: 80px;
+        }
+
+        .enquiries{
+            /* border: 1px solid #000; */
+            box-shadow: 0 0 10px rgba(3, 3, 3, 0.1);
+        }
+
+        .contact-container{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #fff;
+            margin-top: 50px;
+            padding: 20px;
+            line-height: 25px;
+            color: #054bb4;
+        }
+
+        .name-email{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            /* box-shadow: 0 0 10px rgba(3, 3, 3, 0.2); */
+        }
+
+        .message{
+            padding: 15px;
+           margin-left: 8px;
+        }
+
+        .input{
+            height: 40px;
+            border: none;
+            background-color: #f0f0f0;
+        }
+
+        .submit{
+           width: 90%;
+           padding: 5px;
+           background-color: #1105b6;
+           color: white;
+           border: none;
+           margin-left: 15px;
+           border-radius: 5px;
+           font-weight: bold;
+           cursor: pointer;
+           margin-bottom: 15px;
+           height: 30px;
+        }
+
+        .submit:hover{
+            background-color: #054bb4;
+        }
+
+        .con-add{
+            /* border: 1px #000 solid; */
+            box-shadow: 0 0 10px rgba(3, 3, 3, 0.1);
+            padding: 20px;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .social-img{
+            display: flex;
+            justify-content: space-evenly;
+            /* margin-right: 50px; */
+            margin-top: 20px;
+        }
+
+        .social{
+            margin-top: 30px;
+        }
+
+        textarea{
+            color: #054bb4;
+            border: none;
+            padding: 5px;
+            background-color: #f0f0f0;
+        }
+
+        .footer-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #7eb1f8;
+            margin-top: 30px;
+        }
+
+        .contact-01{
+            margin-top: 60px;
+            line-height: 25px;
+            color: #1105b6;
+        }
+
+        .connect{
+            margin-top: 70px;
+            line-height: 40px;
+            color: #1105b6;
+        }
+
+        .copy-right{
+            text-align: center;
+            background-color: #7eb1f8;
+            color: #1105b6;
+        }
+
+    </style>
+</head>
+<body>
+    <header>Speacial Discount-50% Schoolarship for All Courses</header>
+
+    <div class="nav-container">
+        <div class="img">
+            <img src="logoo.png" alt="logo" width="100px" class="logo">
+        </div>
+
+        <div class="navigation">
+            <nav class="nav">
+                <a href="#" class="nav-a">HOME</a>
+                <a href="#" class="nav-a">ABOUT</a>
+                <a href="#" class="nav-a">ACADEMICS</a>
+                <a href="#" class="nav-a">CONTACT EMINENCE</a>
+            </nav>
+        </div>
+
+        <div class="btn">
+            <button class="button">LOGIN</button>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h1 class="contact-h1">CONTACT US</h1>
+    </div>
+
+    <div class="contact-container">
+        <div class="enquiries">
+            <h2 style="padding: 15px; color: #1105b6;">For Enquiries Leave a Message</h2>
+            <div class="name-email">
+                <div><label>Your Name</label> <br><input type="text" class="input"></div>
+                <div><label>Your Email</label> <br><input type="email" class="input"></div>
+            </div>
+
+            <div class="message">
+                <label>Your Message</label> <br>
+                <textarea style="width: 395px; height: 150px;">Drop your message........</textarea>
+            </div> <br>
+
+            <div class="submit">
+               <button type="submit" class="submit">Submit</button> 
+            </div>
+        </div>
+
+        <div class="con-add">
+            <div class="con-img">
+                <img src="contact.png" alt="" width="40px">
+                <h3 style="color: #1105b6;">CONTACT</h3>
+            </div>
+
+            <div class="phone-email">
+                <span>Mobile:08103842360, 08135536488</span> <br>
+                <span>Inquiries:info@eminencecollge.edu.ng</span>
+            </div>
+
+            <div class="add-img" style="margin-top: 40px;">
+                <img src="address.png" alt="" width="40px">
+                <h3 style="color: #1105b6;">ADDRESS</h3>
+            </div>
+
+            <div class="address">
+                <span>NO 1119,DanLadi Nasidi Housing Estate Kano,Nigeria</span>
+            </div>
+
+            <div class="social">
+                <span style="color: #1105b6;">Social Media</span> <br>
+                <div class="social-img">
+                    <div><a href="#"><img src="fb.png" alt="" width="20px"></a></div>
+                    <div><a href="#"><img src="twitter.png" alt="" width="20px"></a></div>
+                    <div><a href="#"><img src="insta.png" alt="" width="20px"></a></div>
+                    <div><a href="#"><img src="youtube.png" alt="" width="20px"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="main">
+            <div class="footer-container">
+                <div class="footer-img">
+                    <img src="logoo.png" alt="logo" width="200px" height="200px">
+                </div>
+        
+                <div class="contact-01">
+                    <h4>Contact Us</h4>
+                    <p>Tell:08103842360</p>
+                    <p>WhatsApp:08135536488</p>
+                    <P>Email:eminencecollge@gmail.com</P>
+                </div>
+        
+                <div class="connect">
+                    <h4 style="margin-left: 10px;">Connect With Us</h4>
+        
+                    <div class="f-img">
+                        <a href="#"><img src="fb.png" alt="" width="20px" height="20px"></a>
+                        <img src="insta.png" alt="" width="20px" height="20px">
+                        <img src="twitter.png" alt="" width="20px" height="20px">
+                        <img src="youtube.png" alt="" width="20px" height="20px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="copy-right">
+                <hr style="color: #1105b6; width: 80%; margin-left: 130px;">
+                <p>&copy ALL RIGHT RESERVED 2023</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
